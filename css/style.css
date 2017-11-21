@@ -1,0 +1,24 @@
+html{
+  border: 10px salmon groove;
+}
+body {
+  font-family: 'Fjalla One', sans-serif;
+  color: #676758;
+  font-weight: 300;
+  background-color: rgba(127, 255, 212, 0.63);
+  padding: 10px;
+  width: 100%;
+  height: 1000px;
+}
+
+#disptable{
+  border: rgb(245, 18, 18) groove;!important
+}
+.headings {
+  font-weight: bolder;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 60px;
+}
