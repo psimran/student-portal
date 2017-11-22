@@ -92,7 +92,7 @@ function adds() {
     adddata();
 };
 let p1 = /[a-z A-Z]$/;
-let p2 = /^[0-9]{4}$/;
+let p2 = /^[0-9]{2}$/;
 let p4 = /^[a-z A-Z]{3}$/;
 
 function addsdata() {
@@ -116,7 +116,7 @@ function addsdata() {
             stream: stream1,
             marks: marks1
         });
-        let list11 = "<tr class=" + student[a].rollno + "><td><input id=" + student[i].rollno + " type=\"checkbox\"></td><td class=" + student[a].rollno + ">" + student[a].rollno + "</td>";
+        let list11 = "<tr class=" + student[a].rollno + "><td><input id=" + student[a].rollno + " type=\"checkbox\"></td><td class=" + student[a].rollno + ">" + student[a].rollno + "</td>";
         let list12 = "<td class=" + student[a].rollno + ">" + student[a].name + "</td>";
         let list13 = "<td class=" + student[a].rollno + ">" + student[a].stream + "</td>";
         let list14 = "<td class=" + student[a].rollno + ">" + student[a].marks + "</td></tr>";
