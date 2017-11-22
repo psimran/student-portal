@@ -95,6 +95,8 @@ let p1 = /[a-z A-Z]$/;
 let p2 = /^[0-9]{2}$/;
 let p4 = /^[a-z A-Z]{3}$/;
 
+let p3 = /^[a-z A-Z]{4}$/;
+
 function addsdata() {
     let name1 = document.getElementsByClassName("add-part")[0].childNodes[4].childNodes[1].value;
     let stream1 = document.getElementsByClassName("add-part")[0].childNodes[6].childNodes[1].value;
@@ -103,7 +105,7 @@ function addsdata() {
         alert("Fill all the fields");
     else if (!p1.test(name1)) {
         alert("Give a valid name");
-    } else if (!p4.test(stream1)) {
+    } else if (!p3.test(stream1)||!p4.test(stream1)) {
         alert("Give a valid stream");
     } else if (!p2.test(marks1)) {
         alert("Give a valid number");
