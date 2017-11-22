@@ -3,7 +3,7 @@ let student = [{
     name: 'Rahul',
     stream: 'CSE',
     marks: 26,
-}, {
+},{
     rollno: 102,
     name: 'Rohit',
     stream: 'CSE',
