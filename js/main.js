@@ -94,9 +94,6 @@ function adds() {
 let p1 = /[a-z A-Z]$/;
 let p2 = /^[0-9]{2}$/;
 let p4 = /^[a-z A-Z]{3}$/;
-
-let p3 = /^[a-z A-Z]{4}$/;
-
 function addsdata() {
     let name1 = document.getElementsByClassName("add-part")[0].childNodes[4].childNodes[1].value;
     let stream1 = document.getElementsByClassName("add-part")[0].childNodes[6].childNodes[1].value;
