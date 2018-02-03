@@ -89,6 +89,7 @@ let adddata = () => {
 }
 
 function adds() {
+    $(".add-part").hide();
     adddata();
 };
 let p1 = /[a-z A-Z]$/;
@@ -127,6 +128,7 @@ function addsdata() {
 }
 let id1;
 let editdetails = () => {
+    $(".add-part").hide();
     for (var i of student) {
         if (document.getElementById(i.rollno).checked == 1) {
             document.getElementById("editroll").innerHTML = i.rollno;
@@ -138,6 +140,7 @@ let editdetails = () => {
 }
 
 function edits() {
+    $(".add-part").hide();
     editdetails();
 }
 
@@ -172,5 +175,8 @@ let delete1 = () => {
 }
 
 function deletemultiple() {
+    
+    $(".add-part").hide();
+    $(".edit-part").hide();
     delete1();
 }
